@@ -24,6 +24,10 @@ The core insight of our work is that many complex components in traditional LLM 
 - **Optimized Training**: Faster convergence with novel training techniques
 - **Memory Efficient**: Lower memory footprint during both training and inference
 
+## Acceptance Information
+
+This paper has been **ACCEPTED** for the **Conference on Machine Learning (COML 2026)**. The camera-ready submission deadline was extended to 2026-06-15 (11:59pm AoE) due to issues with the paper format checker.
+
 ## Repository Structure
 
 ```
@@ -41,16 +45,14 @@ The core insight of our work is that many complex components in traditional LLM 
 ## Quick Start
 
 ### Installation
-
-```bash
-git clone https://github.com/mcptest-user/ipsum-lorem-all-you-need.git
+```
+git clone https://github.com/kh32-americano/ipsum-lorem-all-you-need.git
 cd ipsum-lorem-all-you-need
 pip install -r requirements.txt
 ```
 
 ### Training
-
-```bash
+```
 # Train the Ipsum Lorem model
 python src/training/train.py --config experiments/ipsum_config.yaml
 
@@ -85,3 +87,7 @@ MIT License
 ## Acknowledgments
 
 We thank the research community for their valuable feedback and the conference reviewers for their constructive comments.
+
+## Code Open-Sourcing Status
+
+**Status: Code is now open-sourced!** The implementation is now publicly available on GitHub. This repository contains the complete implementation details, experimental results, and code for the paper.
